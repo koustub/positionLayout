@@ -1,0 +1,38 @@
+.wrapper
+{
+    width : 800px;
+    margin : auto;
+}
+.box1{
+    position: fixed;
+    top: 0px;
+    left:0px;
+    height: 100px;
+    width:200px;
+    padding: 20px;
+    background-color: rgb(58, 53, 53);
+    text-align: center;
+    z-index: 1000;
+}
+.box3{
+    position: absolute;
+    
+    height: 100px;
+    width: 200px;
+    bottom: 0px;
+    right: 0px;
+    padding: 20px;
+    background-color: rgb(58, 53, 53);
+    text-align: center;
+}
+.box2
+{
+    position: relative;
+    margin-bottom: 20px;
+    height: 300px;
+    background-color: rgb(101, 95, 95);
+    text-align: center;
+}
+#para{
+    display: inline;
+}
